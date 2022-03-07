@@ -1,4 +1,4 @@
-# 太🍳🌶
+# Python123 习题解答
 
 ## Usage
 点击 [`Go to file`](https://github.com/iiijam/python123/find/main)
