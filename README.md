@@ -7,4 +7,4 @@
 
 ## Discussions
 
-点击[Discussions](https://github.com/iiijam/python123/discussions)讨论
+点击[`Discussions`](https://github.com/iiijam/python123/discussions)讨论
