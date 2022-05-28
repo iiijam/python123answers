@@ -1,5 +1,5 @@
 import math as m
-class Soultion:
+class Solution:
     def calc(self, A, B, C) -> float:
         cir = (A + B + C) / 2
         area = format((m.sqrt(cir * (cir - A) * (cir - B) * (cir - C))), '.2f')
@@ -9,4 +9,4 @@ class Soultion:
 a = eval(input())
 b = eval(input())
 c = eval(input())
-Soultion().calc(a, b, c)
+Solution().calc(a, b, c)

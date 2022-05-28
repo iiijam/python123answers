@@ -7,11 +7,11 @@ P：本金
 i：利率
 N：利率获取时间的整数倍(年限)'''
 
-class Soultion:
+class Solution:
     def calc(self, money, years, apr) -> float:
         return format(money * (1 + apr) ** years - money, '.2f')
 
 a = eval(input())
 b = eval(input())
 c = eval(input())
-print('利息=' + Soultion().calc(a, b, c))
+print('利息=' + Solution().calc(a, b, c))

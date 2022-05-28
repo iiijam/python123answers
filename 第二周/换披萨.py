@@ -5,7 +5,7 @@
 例如6寸披萨的标准直径为15.24厘米，实际有效直径一般为15厘米。
 披萨店经常会对顾客说：您订购的某尺寸的披萨卖完了，是否可以更换为多个小尺寸的披萨。例如：您订购的9寸披萨卖完了，可以给您2个6寸的披萨吗？
 假设披萨厚度相同，价格与面积成正比，试问一个m英寸的大披萨至少要更换几个n英寸的小披萨，顾客才不吃亏？'''
-class Soultion:
+class Solution:
     def calc(self, biggerPizzaSize:int, smallerPizzaSize:int) -> int:
         x1 = int(biggerPizzaSize * 2.54)
         x2 = int(smallerPizzaSize * 2.54)
@@ -19,4 +19,4 @@ class Soultion:
 
 a = int(input())
 b = int(input())
-print(Soultion().calc(a, b))
+print(Solution().calc(a, b))

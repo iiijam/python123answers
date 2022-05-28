@@ -8,7 +8,7 @@
 '''
 import math
 
-class Soultion:
+class Solution:
     def __init__(self, n, epsilon):
         self.n = n
         self.epsilon = epsilon
@@ -37,6 +37,6 @@ if __name__ == '__main__':
     n, epsilon = input().split(',')
     n = float(n)
     epsilon = float(epsilon)
-    solution = Soultion(n, epsilon)
+    solution = Solution(n, epsilon)
     print(solution.sqrt_binary())
     print(solution.sqrt_math())

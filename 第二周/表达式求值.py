@@ -1,6 +1,6 @@
 import math as m
 
-class Soultion:
+class Solution:
     def calcQuadraticEquationOneUnknown(self, a, b, c) -> float:
         #return keep 2 digits after the decimal point
         if a == 0:
@@ -13,4 +13,4 @@ class Soultion:
 a = eval(input())
 b = eval(input())
 c = eval(input())
-print(Soultion().calcQuadraticEquationOneUnknown(a, b, c))
+print(Solution().calcQuadraticEquationOneUnknown(a, b, c))
