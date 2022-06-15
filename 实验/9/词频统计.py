@@ -70,7 +70,7 @@ def top_ten_words_no_excludes(frequency, cnt):
 
 
 if __name__ == '__main__':
-    filename = "D:\Who Moved My Cheese.txt"  # 文件名
+    filename = "Who Moved My Cheese.txt"  # 文件名
     content = read_file(filename)  # 调用函数返回字典类型的数据
     frequency_result = word_frequency(content)  # 统计词频
     cmd = input()
